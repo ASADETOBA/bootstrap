@@ -1,0 +1,110 @@
+/*reset*/
+html, body, .wrapper{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background:   #fcf0ee;
+}
+
+/*========================
+Header styling starts here
+========================*/
+nav{
+	height: 75px;
+	background: #d3d3d3;
+
+
+}
+
+.colnav{
+	height: 100%;
+}
+
+.Logo, .navlinks, ul{
+	height: 100%;
+	width: 100%;
+}
+
+.navlinks ul{
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.navlinks li{
+	display: inline;
+	padding: 5px;
+	margin: 20px 5px 20px 0;
+	
+    background: #aaa3a1;
+    border-radius: 5px;
+    float: right;
+}
+
+
+.navlinks a{
+	text-decoration: none;
+}
+/*========================
+Header styling ends here
+========================*/
+
+/*========================
+main styling ends here
+========================*/
+
+#firstSection,#secondSection,#thirdSection{
+	width: 100%;
+	border: 1px solid powderblue;
+}
+
+#firstSection{
+	height: 285px;
+}
+
+#firstSection .row,.col-md-6,.banner{
+	height: 100%;
+}
+
+#secondSection{
+	height: 500px;
+}
+
+#secondSection .row,.col-md-4{
+	height: 100%;
+}
+#secondSection .banner{
+	height: 70%;
+}
+#secondSection .text{
+	height: 30%;
+}
+
+#thirdSection{
+	height: 500px;
+}
+
+#thirdSection .row,.col-md-4{
+	height: 100%;
+}
+#thirdSection .banner{
+	height: 70%;
+}
+#thirdSection .text{
+	height: 30%;
+}
+
+.bg-filler{
+	background:  #969195;
+}
+
+.icons{
+	/*width: 15%;
+	height: 20%;*/
+	display: inline-block;
+}
+
+/*========================
+main styling ends here
+========================*/

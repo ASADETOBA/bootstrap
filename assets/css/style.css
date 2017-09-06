@@ -1,0 +1,78 @@
+/*reset*/
+html, body, .wrapper{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background:   #fcf0ee;
+}
+
+/*========================
+Header styling starts here
+========================*/
+nav{
+	height: 75px;
+	background: #000;
+
+
+}
+
+.colnav{
+	height: 100%;
+}
+
+.Logo, .navlinks, ul{
+	height: 100%;
+	width: 100%;
+}
+
+.navlinks ul{
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.navlinks li{
+	display: inline;
+	padding: 5px;
+	margin: 20px 5px 20px 0;
+	
+    background: #d3d3d3;
+    border-radius: 5px;
+    float: right;
+}
+
+
+.navlinks a{
+	text-decoration: none;
+}
+/*========================
+Header styling ends here
+========================*/
+
+/*========================
+main styling ends here
+========================*/
+.wrapper{
+	padding: 0 50px 0 50px;
+}
+#firstSection,#secondSection,#thirdSection{
+	width: 100%;
+	border: 1px solid powderblue;
+}
+
+#secondSection{
+	height: 285px;
+}
+
+#thirdSection{
+	height: 570px;
+}
+.halfSection{
+	width: 50%;
+	height: 100%;
+}
+
+/*========================
+main styling ends here
+========================*/
